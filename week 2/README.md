@@ -3,7 +3,7 @@
 
 #### There are multiple applications of object detection.
 
-!['object detection'](images/object detection applications.png)
+!['object detection'](images/object_detection_applications.png)
 #### They include:
 - Facial detection or recognition.
 - Counting vehicles on a road from a video stream and
@@ -18,7 +18,7 @@ The first object detection technique is known as `sliding window mechanism`
 - In the end, we will have multiple boxes detecting the same object in the image. We use `Non-maximum suppression` to get the box with the largest `Intersection over Union (IoU)` 
 
 - `IoU` is a metric that calculates how close a bounding box is to the true label of an object in the image.
-#### Steps for object detection. 
+### Steps for object detection. 
 
-##### 1. Region proposals.
-##### 2. Object detection and classification.
+#### 1. Region proposals.
+#### 2. Object detection and classification.
